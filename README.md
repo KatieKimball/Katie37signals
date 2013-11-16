@@ -9,3 +9,5 @@ Add jQuery to the <head> of your HTML document (you can download it to your mach
 Now the hard part! Write the necessary jQuery code in application.js and, if necessary, your css file to reproduce the hover behavior you see in the original.
 Once you’ve got a version of the project you’re happy with, commit your changes and push to a gh-pages branch.
 Share a link to your project in your Google community and with your mentor. Solicit feedback!
+
+(test change here)

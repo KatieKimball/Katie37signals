@@ -77,7 +77,9 @@ h2 {
 	padding: 30px;
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 	display: inline-block;
-	margin-top: 20px;
+	margin-top: 20px auto;
+/*I know this is not the right way to center this but can't seem to figure it out...*/
+	margin-left: 288px;
 }
 
 .box {
@@ -135,24 +137,33 @@ h2 {
 	text-decoration: none;
 }
 
+/*break*/
+
+hr {
+	background: white url('img-hr.png') no-repeat scroll 50% 50%;
+	clear: both;
+	border: 0;
+	color: transparent;
+	height: 12px;
+}
+
 /*customers*/
 
 .customers {
 	margin-bottom: 50px;
 	width: 820px;
 	height: 155px;
+	margin: auto;
 }
 
 .customers h2 {
 	font-family: "Crimson Text", "Times New Roman";
-	font-weight: 600;
 	text-align: center;
-	font-size: 2em;
+	font-size: 45px;
 	text-align: center;
-	line-height: 1em;
+	line-height: 1.1em;
 	color: #232323;
-	letter-spacing: -2px;
-
+	letter-spacing: -1px;
 }
 
 

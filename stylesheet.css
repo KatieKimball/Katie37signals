@@ -6,7 +6,7 @@ body {
 }
 
 section {        
-	 margin: 30px auto;
+	 margin: auto;
 	 width: 825px;
 	 display: block;
 }
@@ -78,10 +78,9 @@ header h5 {
 
 .box {
 	top: 40px;
-	left: 75px;
 	width: 160px;
 	margin: 15px 20px 5px;
-	float: left;
+	display: inline-block;
 	border: 1px solid #E8E8E8;
 	border-radius: 5px;
 	padding: 20px 10px 10px;
@@ -165,6 +164,7 @@ hr {
 
 .brands {
 	padding: 30px;
+	margin-bottom: 50px;
 }
 
 /*company*/
@@ -177,6 +177,52 @@ hr {
 	height: 140px;
 	padding-bottom: 50px;
 	margin: auto;
+}
 
+.company h2 {
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+	color: #232323;
+	font-size: 48px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 1.1em;
+	letter-spacing: -1px;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.company h3 {
+	font-family: "LucidaSans";
+	text-align: left;
+	font-size: 17px;
+	color: #cc0000;
+}
+
+.company h5 {
+	font-family: "LucidaSans";
+	font-size: 12px;
+	text-align: left;
+}
+
+.left {
+	width: 380px;
+	float: left;
+	margin-right: 40px;
+	font-family: "CrimsonRoman", "Times New Roman", Georgia, serif;
+	text-align: center;
+	color: #222;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+.right {
+	margin-right: 0px;
+	width: 380px;
+	float: left;
+	font-family: "CrimsonRoman", "Times New Roman", Georgia, serif;
+	text-align: center;
+	color: #222;
+	font-size: 18px;
+	line-height: 1.5em;
 }
 

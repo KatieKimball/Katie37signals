@@ -102,7 +102,7 @@ header h5 {
 	color: #232323;
 	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #CDD4CF 100%);
 	margin: 15px 20px 5px;
-	display: inline-block;
+	float: left;
 	border: 1px solid #E8E8E8;
 	border-radius: 5px;
 	text-decoration: none;
@@ -264,6 +264,6 @@ img .badge {
 
 img .badge {
 	float: right;
-  vertical-align: top;
+	display: block;
 }
 

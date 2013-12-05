@@ -262,3 +262,8 @@ img .badge {
 	line-height: 1.5em;
 }
 
+img .badge {
+	float: right;
+  vertical-align: top;
+}
+

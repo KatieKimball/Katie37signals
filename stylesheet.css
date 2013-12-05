@@ -36,6 +36,18 @@ li {
 	margin-left: 1%;
 }
 
+h1 {
+	font-family: "Crimson Text", "Times New Roman";
+	font-weight: 600;
+	text-align: center;
+	font-size: 2.9em;
+	text-align: center;
+	line-height: 1.1em;
+	color: #232323;
+	letter-spacing: -2px;
+	width: 800px;
+	margin: auto;
+}
 /*headline and logo*/
 
 
@@ -50,7 +62,6 @@ li {
 
 
 header h1 {
-	font-family: "Crimson Text", "Times New Roman";
 	font-weight: 600;
 	text-align: center;
 	font-size: 3.5em;
@@ -60,8 +71,8 @@ header h1 {
 	letter-spacing: -2px;
 	width: 800px;
 	margin: auto;
+	
 }
-
 
 header h5 {
 	font-family: "Crimson Text", "Times New Roman";
@@ -189,6 +200,19 @@ hr {
 	letter-spacing: -1px;
 	text-align: center;
 	margin: 30px 0;
+	float: left;
+}
+
+
+.company h2 {
+	font-family: "Georgia" bold;
+	font-size: 30px;
+	float: left;
+	margin-bottom: 30px;
+	padding-right: 10px;
+	padding-top: 8px;
+	color: #666;
+	margin:-10px 15px 0 0;
 }
 
 .company h3 {
@@ -202,13 +226,16 @@ hr {
 	font-family: "LucidaSans";
 	font-size: 12px;
 	text-align: left;
+	margin-left: 40px;
+	margin-bottom: 10%;
+	line-height: 1.4em;
+
 }
 
 .left {
 	width: 380px;
 	float: left;
 	margin-right: 40px;
-	font-family: "CrimsonRoman", "Times New Roman", Georgia, serif;
 	text-align: center;
 	color: #222;
 	font-size: 18px;
@@ -219,7 +246,6 @@ hr {
 	margin-right: 0px;
 	width: 380px;
 	float: left;
-	font-family: "CrimsonRoman", "Times New Roman", Georgia, serif;
 	text-align: center;
 	color: #222;
 	font-size: 18px;
